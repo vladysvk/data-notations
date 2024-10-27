@@ -23,4 +23,19 @@
             <perimeter>4 * side</perimeter>
         </formulas>
     </figure>
+    <figure>
+        <name>Cube</name>
+        <type>3D</type>
+        <properties>
+            <property>Edge</property>
+            <property>Vertex</property>
+            <property>Face</property>
+        </properties>
+        <formulas>
+            <volume>edge^3</volume>
+            <totalSurfaceArea>6*edge^2</totalSurfaceArea>
+            <lateralSurfaceArea>4*edge^2</lateralSurfaceArea>
+            <diagonalOfCube>edge*sqrt(3)</diagonalOfCube>
+        </formulas>
+    </figure>
 </geometricFigures>

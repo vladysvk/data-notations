@@ -9,4 +9,13 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    <smartphone brand="Iphone" model="Iphone 14 Pro" releaseYear="2023">
+        <specs>
+            <screenSize unit="inch">6.1</screenSize>
+            <batteryCapacity unit="mAh">3200</batteryCapacity>
+            <storage unit="GB">128</storage>
+            <camera unit="MP">48</camera>
+        </specs>
+        <price currency="USD">599</price>
+    </smartphone>
 </smartphones>

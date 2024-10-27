@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+    <sender>Jan Kowalski</sender>
+    <recipient>Marta Janowska</recipient>
+    <object>Necessary task</object>
+    <messageBody>
+        Dear Marta,
+        I wanted to inform you that we have a task prepared for, the task is to create logo
+        to our website about our company. The dedline of this task is 30.10.2024
+
+        Best Regards
+        Jan Kowalski
+    </messageBody>
+</email>

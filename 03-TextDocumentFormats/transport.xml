@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transports>
+    <transport type="Tram" brand="MPK">
+        <routeNumber>20</routeNumber>
+        <color>Blue</color>
+        <fuelType>Electricity</fuelType>
+        <year>2018</year>
+    </transport>
+    <transport type="Bus" brand="MPK">
+        <routeNumber>178</routeNumber>
+        <color>Blue</color>
+        <fuelType>Gasoline</fuelType>
+        <year>2017</year>
+    </transport>
+    <transport type="Car" brand="Nissan">
+        <model>Rogue</model>
+        <color>Grey</color>
+        <fuelType>Gasoline</fuelType>
+        <year>2014</year>
+    </transport>
+    <transport type="Bike" brand="Canyon">
+        <model>Strive CFR</model>
+        <color>Black</color>
+        <fuelType>No fuel</fuelType>
+        <year>2021</year>
+    </transport>
+</transports>
