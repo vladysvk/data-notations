@@ -53,5 +53,27 @@
             "Outerwear",
             "Accessories"
         ]
+    },
+    {
+        "name": "Puma",
+        "founded": 1948,
+        "headquarters": "Herzogenaurach, Germany",
+        "employees" : 18000,
+        "products": [
+            "Sportswear",
+            "Footwear",
+            "Accessories"
+        ]
+    },
+    {
+        "name": "Pull & Bear",
+        "founded": 1986,
+        "headquarters": "Narón, Spain",
+        "employees": 3300,
+        "products": [
+            "Casual Wear",
+            "Accessories",
+            "Footwear"
+        ]
     }
 ]

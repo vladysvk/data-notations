@@ -1,0 +1,11 @@
+{
+    "From": "Gdańsk",
+    "Destination": "Warszawa",
+    "price" : 126.00,
+    "Date of the trip": "10.08",
+    "Departure time": "13:41",
+    "Arrival time": "17:30",
+    "Carrier": "PKP IC",
+    "Number of train": 1114,
+    "Number of wagon": 6
+}
