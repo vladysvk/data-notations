@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1>Survey about AI</h1>
+    <br />
+    <form action="#" method="post">
+      <label for="age">Age:</label><br />
+      <input
+        type="number"
+        name="age"
+        id="age"
+        value="age"
+        placeholder="Your age: 18"
+      />
+      <br />
+      <label>Gender:</label><br /><br />
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label><br />
+      <label for="usage">Usage: </label><br />
+      <select name="usage" id="usage">
+        <option value="never">Never</option>
+        <option value="rarely">Rarely</option>
+        <option value="occasionally">Occasionally</option>
+        <option value="often">Often</option>
+        <option value="constantly">Constantly</option>
+      </select>
+      <br />
+      <br />
+      <label for="benefits">Benefits of AI:</label><br /><br />
+      <textarea
+        name="benefits"
+        id="benefits"
+        placeholder="Describe benefits from using AI"
+      ></textarea>
+    </form>
+  </body>
+</html>

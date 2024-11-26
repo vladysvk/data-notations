@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patient Data Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Patient Data Form</h1>
     <form>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br><br>
-        
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        
-        <label for="age">Age:</label><br>
-        <input type="number" id="age" name="age"><br><br>
-        
-        <label >Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br><br>
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
 
-        <label for="height">Height (cm):</label><br>
-        <input type="number" id="height" name="height"><br><br>
-        
-        <label for="weight">Weight (kg):</label><br>
-        <input type="number" id="weight" name="weight"><br><br>
-        
-        <button type="button">Ok</button>
-        <button type="button">Cancel</button>
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" /><br /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="number" id="age" name="age" /><br /><br />
+
+      <label for="date">Date of birth:</label>
+      <input type="date" id="date" name="date" />
+
+      <label for="place">Place of birth:</label>
+      <input type="text" id="place" name="place" /><br />
+      <br />
+      <label>Ilnesses: </label><br />
+      <label for="influenza">Influenza</label>
+      <input
+        type="checkbox"
+        name="influenza"
+        id="influenza"
+        value="influenza"
+      /><br />
+      <label for="diabetes">Diabetes</label>
+      <input
+        type="checkbox"
+        name="diabetes"
+        id="diabetes"
+        value="diabetes"
+      /><br />
+      <label for="pneumonia">Pneumonia</label>
+      <input
+        type="checkbox"
+        name="pneumonia"
+        id="pneumonia"
+        value="pneumonia"
+      /><br />
+      <label for="arthritis">Arthritis</label>
+      <input
+        type="checkbox"
+        name="arthritis"
+        id="arthritis"
+        value="arthritis"
+      /><br />
+      <br />
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <label for="height">Height (cm):</label><br />
+      <input type="number" id="height" name="height" /><br /><br />
+
+      <label for="weight">Weight (kg):</label><br />
+      <input type="number" id="weight" name="weight" /><br /><br />
+      <label for="notes">Notes:</label><br />
+      <textarea name="notes" id="notes"></textarea>
+      <br /><br />
+      <button type="button">Ok</button>
+      <button type="button">Cancel</button>
     </form>
-</body>
+  </body>
 </html>
