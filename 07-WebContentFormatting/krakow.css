@@ -1,0 +1,25 @@
+thead {
+    background-color: brown;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    background-color: crimson;
+}
+
+table {
+    border: 3px, black, solid;
+    border-collapse: collapse;    
+}
+
+tbody {
+    color: white;
+}
+
+tr:hover {
+    color: wheat;
+    background-color: rgb(35, 1, 1);
+}

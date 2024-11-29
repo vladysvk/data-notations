@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    background-color: orange;
+}
+
+td, th{
+    border: 3px black solid;   
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+    background-color: bisque;
+    color: brown;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+    color: orange;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+section {
+    border: 2px black solid;
+    margin-bottom: 20px;
+}
+
+.sec1 {
+    color: green;
+}
+
+.sec2 {
+    color: blue;
+}
+
+.sec3 {
+    color: gray;
+}
